@@ -1,5 +1,14 @@
 # Flask Mailroom Application
 
+Tracy Allen Running at:
+https://dry-springs-81680.herokuapp.com/donations
+
+
+Problems:
+On my create page:
+I am able to enter a name and an amount but when I hit the "Create Donation" button I get an error.
+I am unable to save the donation nor view it.
+
 Running at [http://afternoon-reef-51666.herokuapp.com/donations/](http://afternoon-reef-51666.herokuapp.com/donations/).
 
 ## Your Task
@@ -43,7 +52,7 @@ All commands to be run from inside the repository directory.
 ```
 $ git init                # Only necessary if this is not already a git repository
 $ heroku create
-$ git push heroku master  # If you have any changes or files to add, commit them before you push. 
+$ git push heroku master  # If you have any changes or files to add, commit them before you push.
 $ heroku addons:create heroku-postgresql:hobby-dev
 $ heroku run python setup.py
 $ heroku open
